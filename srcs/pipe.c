@@ -6,7 +6,7 @@
 /*   By: agallipo <agallipo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/10 19:10:30 by agallipo          #+#    #+#             */
-/*   Updated: 2022/02/20 13:39:29 by agallipo         ###   ########.fr       */
+/*   Updated: 2022/02/20 13:43:38 by agallipo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	ft_exit_process(int condition, char *argv)
 	}
 	if (condition == 1)
 	{
-		ft_print_error("pipex: command not found:\n", "");
+		ft_print_error("pipex: command not found:", "");
 		exit (0);
 	}
 	if (condition == 2)
